@@ -1,0 +1,40 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto+Mono:100,400");
+@import url("https://fonts.googleapis.com/css?family=Courgette");
+
+.no-search-title::after {
+  content: "";
+  background-image: url(http://www.customerinsightgroup.com/beta/wp-content/uploads/2016/02/facebook-shared-photo-albums.jpg);
+  background-size: cover;
+  background-position-y: -143%;
+  background-repeat: no-repeat;
+  opacity: 0.3;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  position: absolute;
+  z-index: -1;
+  animation: fromTop 1s;
+}
+
+.no-search-title {
+  color: #000;
+  margin-top: 10vh;
+  text-align: center;
+  font-size: 10vh;
+  font-weight: 100;
+  background-color: white;
+  
+}
+
+@keyframes fromTop {
+  0% {
+    transform: translateY(-20px);
+    opacity: 1;
+  }
+
+  100% {
+    transform: translateY(0px);
+    opacity: 0.3;
+  }
+}

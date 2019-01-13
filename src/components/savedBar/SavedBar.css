@@ -1,0 +1,67 @@
+.saved-words {
+  width: 100%;
+  height: fit-content;
+  border-radius: 10px;
+  padding: 5px 10px 10px 10px;
+  margin-bottom: 10px;
+  display: flex;
+  flex-direction: row;
+  justify-items: baseline;
+  flex-wrap: wrap;
+}
+
+.keywords-title{
+  margin-left: 20px;
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0px 10px;
+  letter-spacing: 1px;
+}
+
+.save-btn {
+  position: absolute;
+  top: 25%;
+  right: 0;
+  height: 36px;
+  background: none;
+  border: none;
+  font-size: 1.5rem;
+  outline: none;
+  transition: all 0.2s;
+}
+
+.save-btn:hover {
+  color: rgb(100, 35, 19);
+  animation: jump 1.5s ease 0s infinite normal;
+  font-size: 1.8rem;
+}
+
+@keyframes jump {
+  0% {
+    transform: translateY(0);
+  }
+  20% {
+    transform: translateY(0);
+  }
+  40% {
+    transform: translateY(-15px);
+  }
+  50% {
+    transform: translateY(0);
+  }
+  60% {
+    transform: translateY(-10px);
+  }
+  80% {
+    transform: translateY(0);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+
+@media screen and (max-width:426px){
+  .keywords-title{
+    display: none;
+  }
+}
