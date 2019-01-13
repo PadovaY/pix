@@ -1,10 +1,10 @@
-#Pix - image searcg engine 
+# Pix - image searcg engine 
 
 Pix is a React.js app that provides a search engine of images from the flickr api.
 the app also have keywords save feature, that enables saving previous search terms by the user.
 
 the app is responsive and fits every common screen size. 
-
+______________________________________
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
