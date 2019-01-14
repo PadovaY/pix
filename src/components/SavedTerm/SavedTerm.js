@@ -17,7 +17,6 @@ class SavedTerm extends React.Component {
         <button
           ref={this.termRef}
           className={`term-btn ${this.state.isClikced? 'clicked': ''}`}
-          // className={this.state.isClikced? "term-btn-clicked": "term-btn"}  
           onClick={this.handleClick}
         >
           {this.props.text}
